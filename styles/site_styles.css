@@ -1,0 +1,122 @@
+body {
+	background-color: #E5E4E2;
+	display: grid;
+	grid-template-areas:
+	'nav nav nav'
+	'header header header'
+	'main main main'
+	'footer footer footer';
+}
+
+nav {
+	grid-area: nav;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #011627;
+}
+
+
+header {
+	grid-area: header;
+	text-align: center;
+	padding: 1%;
+	background-color: #4CA0EB;
+	box-shadow: 5px 5px 5px #011627;
+}
+
+h1, h2 {
+	font-family: serif, "Times New Roman", Times;
+}
+
+p {
+	font-family:  sans-serif, Arial, Helvetica;
+}
+
+main {
+	grid-area: main;
+	text-align: center;
+}
+
+footer {
+	grid-area: footer;
+	text-align: center;
+	background-color: #011627;	
+	border-radius: 10px;
+	margin: 1% 0 0 0;
+}
+
+
+footer > p {
+	color: #E5E4E2;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	padding: 5%;
+}
+
+main > h1 {
+	text-shadow: 1px 1px #011627;
+}
+
+
+li > a {
+	text-decoration: none;
+	color: #E5E4E2;
+	font-size: 18px;
+}
+
+i {
+	color: white;
+}
+/* ==================================
+	Mobile Styles: 0px to 480px
+   ==================================
+*/
+@media only screen and (max-width: 480px) {	
+	li {
+		padding: 2%;
+	}
+	li > a {
+		font-size: 15px;
+	}	
+	h1, h2 {
+		font-size: 18px;
+	}	
+	footer {
+		margin: 2% 0 0 0;
+	}
+	main > p {
+		font-size: 14px;
+	}
+}
+
+/* ==================================
+	Tablet Styles: 481px and greater
+   ==================================
+*/
+@media only screen and (min-width: 481px) {
+	header {
+		margin-bottom: 2%;
+	}
+	
+	footer {
+		margin: 3% 20% 0% 20%;
+	}
+}
+
+/* =================================
+	Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px) {
+	header {
+		margin-bottom: 0;
+			
+	}
+	footer {
+		margin: 3% 28% 0 28%;
+	}
+}
+ 
