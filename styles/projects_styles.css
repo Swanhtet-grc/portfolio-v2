@@ -1,7 +1,7 @@
 img {
 	width: 40%;
 	max-width: 350px;
-	min-width: 300px;
+	min-width: 330px;
 	height: 35%;
 	max-height: 300px;
 	min-height: 260px;
@@ -25,28 +25,28 @@ main {
 }
 
 .img1 {
-	display: block;
+	display: inline-block;
 	align-items: center;
 	margin: 0;
 	padding: 2%;
 	}
 
-.img2 {
-	display: block;
-	align-items: center;
-	margin: 0;
-	padding: 2%;
+	.img2 {
+		display: inline-block;
+		align-items: center;
+		margin: 0;
+		padding: 2%;
 	}
 
 .img3 {
-	display: block;
+	display: inline-block;
 	align-items: center;
 	margin: 0;
 	padding: 2%;
 }
 
 .img4 {
-	display: block;
+	display: inline-block;
 	align-items: center;
 	margin: 0;
 	padding: 2%;
