@@ -40,6 +40,18 @@ main > h2 {
 	color: #011627;
 }
 
+.fa-react {
+	font-size: 45px;
+	margin: 13px;
+	color: #011627;
+}
+
+.fa-node {
+	font-size: 45px;
+	margin: 13px;
+	color: #011627;
+}
+
 main > p  {
 	font-size: 18px;
 	margin: 2% 20% 6% 20%;
