@@ -11,43 +11,31 @@ main > h2 {
 }
 
 .fa-python {
-	font-size: 45px;
+	font-size: 40px;
 	margin: 15px;
 	color: #011627;
 }
 
 .fa-java {
-	font-size: 45px;
+	font-size: 40px;
 	margin: 13px;
 	color: #011627;
 }
 
 .fa-js-square {
-	font-size: 45px;
-	margin: 13px;
-	color: #011627;
-}
-
-.fa-html5 {
-	font-size: 45px;
-	margin: 13px;
-	color: #011627;
-}
-
-.fa-css3-alt {
-	font-size: 45px;
+	font-size: 40px;
 	margin: 13px;
 	color: #011627;
 }
 
 .fa-react {
-	font-size: 45px;
+	font-size: 40px;
 	margin: 13px;
 	color: #011627;
 }
 
 .fa-node {
-	font-size: 45px;
+	font-size: 40px;
 	margin: 13px;
 	color: #011627;
 }
