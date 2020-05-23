@@ -11,7 +11,7 @@ body {
 nav {
 	grid-area: nav;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 8px;
 	background-color: #011627;
 }
 
