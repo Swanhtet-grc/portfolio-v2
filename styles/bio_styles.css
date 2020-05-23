@@ -1,8 +1,8 @@
 img {
 	border-radius: 50%;
-	width: 32%;
+	width: 30%;
 	max-width: 350px;
-	min-width: 200px;
+	min-width: 180px;
 	box-shadow: 10px 10px 15px #011627;
 }
 
